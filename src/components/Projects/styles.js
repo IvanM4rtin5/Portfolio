@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectSectionContainer = styled.div`
-  padding: 0 0 0 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
