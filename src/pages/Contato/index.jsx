@@ -10,10 +10,10 @@ export function Contatos() {
         event.preventDefault();
 
         emailjs.sendForm(
-            '', //  Service ID
-            '', //  Template ID
+            'seu id', //  Service ID
+            'template id', //  Template ID
             event.target,
-            '' // User ID ou chave public
+            'jafsjfh' // User ID ou chave public
         )
         .then((result) => {
             alert('Mensagem enviada com sucesso!');
