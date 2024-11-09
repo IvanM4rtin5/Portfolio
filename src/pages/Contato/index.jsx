@@ -10,10 +10,10 @@ export function Contatos() {
         event.preventDefault();
 
         emailjs.sendForm(
-            'service_gvevvbe', //  Service ID
-            'template_mb23885', //  Template ID
+            '', //  Service ID
+            '', //  Template ID
             event.target,
-            'Eh543mbPemKLYS_9d' // User ID ou chave public
+            '' // User ID ou chave public
         )
         .then((result) => {
             alert('Mensagem enviada com sucesso!');
