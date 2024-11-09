@@ -55,7 +55,7 @@ export function Header() {
                     <Home size={20} />
                     <span>Home</span>
                 </NavLink>
-                <NavLink to="/about" onClick={toggleMenu}>
+                <NavLink to="/Sobre" onClick={toggleMenu}>
                     <User size={20} />
                     <span>Sobre</span>
                 </NavLink>
