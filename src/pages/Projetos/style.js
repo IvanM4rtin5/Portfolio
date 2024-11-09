@@ -15,7 +15,7 @@ export const Container = styled.div`
     width: 100%;
     height: vh;
     max-width: 1120px;
-    margin: 0 auto;
+    margin: 0 ;
     padding-top: 90px; // 70px (altura do header) + 20px de espaço extra
     padding-left: 20px;
     padding-right: 20px;
