@@ -15,11 +15,16 @@ export const Container = styled.div`
     width: 100%;
     height: vh;
     max-width: 1120px;
-    margin: 0 ;
+    margin: 0  auto;
     padding-top: 90px; // 70px (altura do header) + 20px de espaço extra
     padding-left: 20px;
     padding-right: 20px;
     animation: ${fadeInUp} 0.8s ease-out;
+
+         // Responsividade para telas menores
+    @media (max-width: 768px) {
+      margin: 0;
+    }
 `;
 
 export const Form = styled.form`
