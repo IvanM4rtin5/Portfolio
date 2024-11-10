@@ -45,7 +45,7 @@ export const Form = styled.form`
     text-align: center;
   }
     p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
     text-align: center;
     color:${({ theme }) => theme.COLORS.WHITE};
