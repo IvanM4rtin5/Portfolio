@@ -44,6 +44,18 @@ export const Form = styled.form`
     margin-bottom: 16px;
     text-align: center;
   }
+    p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    color:${({ theme }) => theme.COLORS.WHITE};
+    margin-bottom:25px;
+    
+    &::first-letter {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
   img{
     height: 60px;
     margin-right: 60px;
