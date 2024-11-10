@@ -65,6 +65,20 @@ export const Form = styled.form`
       transform: translateX(-100%);
     }
   }
+      /* Responsividade para telas menores */
+    @media (max-width: 768px) {
+    h1 {
+      font-size: 22px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
 `;
 
 export const Content = styled.div`
