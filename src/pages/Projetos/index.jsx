@@ -11,6 +11,8 @@ export function Projetos() {
       <Header />
       <Form>
         <h1>  "PROJETOS <FolderKanban size={25}/>" </h1>
+         <p> PARA VER MAIS , CLICK NOS PROJETOS.</p>
+
         <div className="image-loop">
           <div className="images">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
