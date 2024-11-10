@@ -40,6 +40,15 @@ export const Form = styled.form`
     margin-bottom: 16px;
     text-align: center;
   }
+    // Responsividade para telas menores
+  @media (max-width: 768px){
+        h1{
+        font-size: 28px;
+      }
+      h2{
+        font-size: 20px;
+      }
+  }
 `;
 
 export const Content = styled.div`
@@ -70,6 +79,7 @@ export const Content = styled.div`
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
+    word-spacing: 1px;
     margin: 0;
     
     &::first-letter {
@@ -85,6 +95,16 @@ export const Content = styled.div`
 
     img {
       display: none; // desativa a imagem para mobile
+    }
+        p{
+      font-size: 16px;
+      text-align: center;
+      word-spacing: 1px;
+
+      &::first-letter {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
     }
   }
 `;
