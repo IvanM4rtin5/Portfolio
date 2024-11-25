@@ -48,7 +48,7 @@ export function Contatos() {
                     
                     </a>
                     {/* Botão para baixar o currículo */}
-                    <a href="https://portfolio-prime.netlify.app/documents/NovoCurriculo.pdf" download="ivan_NovoCurriculo.pdf">
+                    <a href="https://docs.google.com/document/d/1woauvpt1LXX5a_HaGiYvkxTil3v_uGMjFnYThEGrKxU/export?format=pdf" download="Cv-Ivan.pdf" target="_blank">
                         <Button title="Baixar Currículo"/>
                     </a>
                 </ContactInfo>
