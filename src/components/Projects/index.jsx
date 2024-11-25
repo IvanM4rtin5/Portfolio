@@ -24,7 +24,7 @@ export function ProjectSection ()  {
     },
     {
         title: 'Projeto - Task-list',
-        description: 'Projeto com local storage funcional , lista de tarefas com facil interação',
+        description: 'O projeto Task-List é uma aplicação simples de lista de tarefas que permite aos usuários adicionar, editar e excluir itens de forma intuitiva. A aplicação utiliza localStorage para garantir que as tarefas sejam mantidas mesmo após o recarregamento da página. A interação com a lista de tarefas é simples e eficaz, tornando o gerenciamento de tarefas mais eficiente.',
         technologies: ['React', 'HTML5', 'Javascript'],
         image: projectImage1,
         link: 'https://list-taskk.netlify.app/'
