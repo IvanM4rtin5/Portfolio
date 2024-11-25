@@ -31,8 +31,7 @@ export function ProjectSection ()  {
       },
       {
         title: ' Projeto - Escala/Plantão',
-        description: 'O projeto Escala/Plantão é uma aplicação interativa que permite a criação e gestão de escalas de plantão para até 30 dias, com folgas programadas de 12/48 horas. A aplicação é voltada para o gerenciamento eficiente de turnos de trabalho, sendo ideal para equipes que precisam de uma escala rotativa, como médicos, enfermeiros ou operadores de plantão. O sistema gera automaticamente as escalas, distribuindo as folgas de acordo com o padrão de 12 horas de trabalho seguidas por 48 horas de descanso.
-A interface foi projetada para ser intuitiva e fácil de usar, com a capacidade de ajustar os horários e visualizar as escalas de forma clara e organizada. O usuário pode visualizar a distribuição dos plantões ao longo dos 30 dias e ajustar conforme necessário.',
+        description: 'O projeto Escala/Plantão é uma aplicação interativa que permite a criação e gestão de escalas de plantão para até 30 dias, com folgas programadas de 12/48 horas. A aplicação é voltada para o gerenciamento eficiente de turnos de trabalho, sendo ideal para equipes que precisam de uma escala rotativa, como médicos, enfermeiros ou operadores de plantão. O sistema gera automaticamente as escalas, distribuindo as folgas de acordo com o padrão de 12 horas de trabalho seguidas por 48 horas de descanso.',
         technologies: ['HTML5', 'Javascript','css3'],
         image: projectImage2,
         link:'https://esc-plantao.netlify.app/'
