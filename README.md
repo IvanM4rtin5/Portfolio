@@ -28,23 +28,24 @@ meus projetos e habilidades, além de poder entrar em contato comigo.
 
 Certifique-se de ter o **Node.js** instalado em sua máquina. Você pode verificar a versão instalada com o comando:
 
-```bash
-node -v
+``bash
+node -v ``.
 
-Passos para rodar localmente
+### Passos para rodar localmente
+
 Clone este repositório para o seu computador:
-bash
+``bash
 Copiar
-git clone https://github.com/SEU-USUARIO/portfolio.git
+git clone https://github.com/SEU-USUARIO/portfolio.git``
 cd portfolio
 Instale as dependências:
 bash
 Copiar
-npm install
+``npm install``
 Execute o projeto no modo de desenvolvimento:
 bash
 Copiar
-npm run dev
+``npm run dev``
 O projeto estará rodando em http://localhost:3000.
 
 Gerando o Build de Produção
@@ -52,25 +53,26 @@ Caso queira gerar uma versão otimizada para produção, execute:
 
 bash
 Copiar
-npm run build
+``npm run build``
 Para visualizar a versão de produção localmente, use:
 
 bash
 Copiar
 npm run preview
 Comandos Disponíveis
-npm run dev: Inicia o servidor de desenvolvimento.
-npm run build: Cria o build para produção.
-npm run lint: Executa o ESLint para verificar o código.
-npm run preview: Visualiza a versão de produção localmente.
-Estrutura do Projeto
+``npm run dev: Inicia o servidor de desenvolvimento.``
+``npm run build: Cria o build para produção.``
+``npm run lint: Executa o ESLint para verificar o código.``
+``npm run preview: Visualiza a versão de produção localmente.``
+### Estrutura do Projeto
 src/: Contém todo o código fonte do projeto.
 components/: Componentes reutilizáveis.
 pages/: Páginas do portfólio (Home, Sobre, Projetos, etc.).
 router/: Configuração das rotas usando react-router-dom.
 styles/: Arquivos de estilo globais e de tema (usando styled-components).
 public/: Contém os arquivos estáticos, como o index.html.
-Dependências
+
+### Dependências
 Aqui estão as principais dependências que o projeto utiliza:
 
 Dependências:
@@ -104,7 +106,6 @@ Copiar
 3. **Licença**: Se você usar uma licença diferente da MIT, altere a seção de Licença conforme necessário.
 4. **Customização**: Caso você queira personalizar ainda mais com outras informações, basta adicionar mais seções conforme sua necessidade.
 
-Esse modelo pode ser editado diretamente no GitHub em "README.md". Se precisar de mais algum ajuste ou ajuda, só me chamar!
 
 
 
