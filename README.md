@@ -1,4 +1,6 @@
 # Portfólio
+# Link
+- https://portfolio-prime.netlify.app/
 
 Este é o meu portfólio pessoal, criado com **React**, **Vite** e **Styled Components**. Aqui você pode encontrar informações sobre mim, 
 meus projetos e habilidades, além de poder entrar em contato comigo.
@@ -87,7 +89,7 @@ Aqui estão as principais dependências que o projeto utiliza:
 - **react-router-dom**: ^6.27.0
 - **styled-components**: ^6.1.13
   
-  ## Dependências de Desenvolvimento:
+  # Dependências de Desenvolvimento:
   
 - **@vitejs/plugin-react**: ^4.3.3
 - **eslint**: ^8.57.0
