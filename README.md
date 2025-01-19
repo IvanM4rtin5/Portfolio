@@ -25,6 +25,8 @@ meus projetos e habilidades, além de poder entrar em contato comigo.
 
 # Link
 - https://portfolio-prime.netlify.app/
+
+  
 ![Capa do Portfolio](https://github.com/IvanM4rtin5/Portfolio/blob/main/Portf%C3%B3lio-IvanMartins%20-%20Google%20Chrome%2019_01_2025%2014_09_58.png)
 
   
