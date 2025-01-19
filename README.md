@@ -1,6 +1,4 @@
 # Portfólio
-# Link
-- https://portfolio-prime.netlify.app/
 
 Este é o meu portfólio pessoal, criado com **React**, **Vite** e **Styled Components**. Aqui você pode encontrar informações sobre mim, 
 meus projetos e habilidades, além de poder entrar em contato comigo.
@@ -24,6 +22,12 @@ meus projetos e habilidades, além de poder entrar em contato comigo.
 - **Habilidades**: Minhas principais habilidades e tecnologias que domino.
 - **Contato**: Formulário para que você possa entrar em contato comigo.
 
+
+# Link
+- https://portfolio-prime.netlify.app/
+`(https://portfolio-prime.netlify.app/)`
+
+  
 ## Como Rodar o Projeto
 
 ### Pré-requisitos
