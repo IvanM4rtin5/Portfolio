@@ -66,33 +66,35 @@ Comandos Disponíveis
 ``npm run preview: Visualiza a versão de produção localmente.``
 ### Estrutura do Projeto
 
-src/: Contém todo o código fonte do projeto.
-components/: Componentes reutilizáveis.
-pages/: Páginas do portfólio (Home, Sobre, Projetos, etc.).
-router/: Configuração das rotas usando react-router-dom.
-styles/: Arquivos de estilo globais e de tema (usando styled-components).
-public/: Contém os arquivos estáticos, como o index.html.
+-src/: Contém todo o código fonte do projeto.
+-components/: Componentes reutilizáveis.
+-pages/: Páginas do portfólio (Home, Sobre, Projetos, etc.).
+-router/: Configuração das rotas usando react-router-dom.
+-styles/: Arquivos de estilo globais e de tema (usando styled-components).
+-public/: Contém os arquivos estáticos, como o index.html.
 
 ### Dependências
 Aqui estão as principais dependências que o projeto utiliza:
 
 ## Dependências:
 
-- ** axios **: ^1.7.5
-- ** emailjs-com **: ^3.2.0
-- ** lucide-react **: ^0.454.0
-- ** react **: ^18.3.1
-- ** react-dom **: ^18.3.1
-- ** react-icons **: ^5.2.1
-- ** react-router-dom **: ^6.27.0
-- ** styled-components **: ^6.1.13
-- ** Dependências de Desenvolvimento:
-- ** @vitejs/plugin-react **: ^4.3.3
-- ** eslint **: ^8.57.0
-- ** eslint-plugin-react **: ^7.34.3
-- ** eslint-plugin-react-hooks **: ^4.6.2
-- ** eslint-plugin-react-refresh **: ^0.4.7
-- ** vite **: ^5.3.4
+- **axios **: ^1.7.5
+- **emailjs-com **: ^3.2.0
+- **lucide-react **: ^0.454.0
+- **react **: ^18.3.1
+- **react-dom **: ^18.3.1
+- **react-icons **: ^5.2.1
+- **react-router-dom **: ^6.27.0
+- **styled-components**: ^6.1.13
+  
+  ##Dependências de Desenvolvimento:
+  
+- **@vitejs/plugin-react**: ^4.3.3
+- **eslint**: ^8.57.0
+- **eslint-plugin-react**: ^7.34.3
+- **eslint-plugin-react-hooks**: ^4.6.2
+- **eslint-plugin-react-refresh**: ^0.4.7
+- **vite**: ^5.3.4
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
