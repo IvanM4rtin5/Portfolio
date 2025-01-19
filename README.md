@@ -66,12 +66,12 @@ Comandos Disponíveis
 ``npm run preview: Visualiza a versão de produção localmente.``
 ### Estrutura do Projeto
 
--src/: Contém todo o código fonte do projeto
--components/: Componentes reutilizáveis
--pages/: Páginas do portfólio (Home, Sobre, Projetos, etc.)
--router/: Configuração das rotas usando react-router-dom
--styles/: Arquivos de estilo globais e de tema (usando styled-components)
--public/: Contém os arquivos estáticos, como o index.html
+-src: Contém todo o código fonte do projeto
+-components: Componentes reutilizáveis
+-pages: Páginas do portfólio (Home, Sobre, Projetos, etc.)
+-router: Configuração das rotas usando react-router-dom
+-styles: Arquivos de estilo globais e de tema (usando styled-components)
+-public: Contém os arquivos estáticos, como o index.html
 
 ### Dependências
 Aqui estão as principais dependências que o projeto utiliza:
@@ -87,7 +87,7 @@ Aqui estão as principais dependências que o projeto utiliza:
 - **react-router-dom**: ^6.27.0
 - **styled-components**: ^6.1.13
   
-  ##Dependências de Desenvolvimento:
+  ## Dependências de Desenvolvimento:
   
 - **@vitejs/plugin-react**: ^4.3.3
 - **eslint**: ^8.57.0
