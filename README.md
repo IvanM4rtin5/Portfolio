@@ -25,7 +25,7 @@ meus projetos e habilidades, além de poder entrar em contato comigo.
 
 # Link
 - https://portfolio-prime.netlify.app/
-`(https://portfolio-prime.netlify.app/)`
+`!(https://portfolio-prime.netlify.app/)`
 
   
 ## Como Rodar o Projeto
