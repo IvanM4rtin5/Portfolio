@@ -65,6 +65,7 @@ Comandos Disponíveis
 ``npm run lint: Executa o ESLint para verificar o código.``
 ``npm run preview: Visualiza a versão de produção localmente.``
 ### Estrutura do Projeto
+
 src/: Contém todo o código fonte do projeto.
 components/: Componentes reutilizáveis.
 pages/: Páginas do portfólio (Home, Sobre, Projetos, etc.).
@@ -75,23 +76,25 @@ public/: Contém os arquivos estáticos, como o index.html.
 ### Dependências
 Aqui estão as principais dependências que o projeto utiliza:
 
-Dependências:
-axios: ^1.7.5
-emailjs-com: ^3.2.0
-lucide-react: ^0.454.0
-react: ^18.3.1
-react-dom: ^18.3.1
-react-icons: ^5.2.1
-react-router-dom: ^6.27.0
-styled-components: ^6.1.13
-Dependências de Desenvolvimento:
-@vitejs/plugin-react: ^4.3.3
-eslint: ^8.57.0
-eslint-plugin-react: ^7.34.3
-eslint-plugin-react-hooks: ^4.6.2
-eslint-plugin-react-refresh: ^0.4.7
-vite: ^5.3.4
-Licença
+## Dependências:
+
+- ** axios **: ^1.7.5
+- ** emailjs-com **: ^3.2.0
+- ** lucide-react **: ^0.454.0
+- ** react **: ^18.3.1
+- ** react-dom **: ^18.3.1
+- ** react-icons **: ^5.2.1
+- ** react-router-dom **: ^6.27.0
+- ** styled-components **: ^6.1.13
+- ** Dependências de Desenvolvimento:
+- ** @vitejs/plugin-react **: ^4.3.3
+- ** eslint **: ^8.57.0
+- ** eslint-plugin-react **: ^7.34.3
+- ** eslint-plugin-react-hooks **: ^4.6.2
+- ** eslint-plugin-react-refresh **: ^0.4.7
+- ** vite **: ^5.3.4
+
+## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
 
 Sinta-se à vontade para contribuir para o projeto, ou entre em contato caso tenha alguma dúvida ou sugestão!
@@ -99,12 +102,6 @@ Sinta-se à vontade para contribuir para o projeto, ou entre em contato caso ten
 markdown
 Copiar
 
-### Instruções de Edição:
-
-1. **Substitua o nome do repositório**: Em `git clone https://github.com/SEU-USUARIO/portfolio.git`, substitua `SEU-USUARIO` pelo seu nome de usuário no GitHub.
-2. **Imagens ou capturas de tela**: Se você quiser adicionar imagens ao seu `README.md`, basta fazer o upload das imagens para o repositório e usar a sintaxe `![Texto alternativo](URL_DA_IMAGEM)` para incluí-las.
-3. **Licença**: Se você usar uma licença diferente da MIT, altere a seção de Licença conforme necessário.
-4. **Customização**: Caso você queira personalizar ainda mais com outras informações, basta adicionar mais seções conforme sua necessidade.
 
 
 
