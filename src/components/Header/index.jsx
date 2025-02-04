@@ -13,7 +13,7 @@ export function Header() {
     return(
         <Container>
             <Profile to="/">
-            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGCV800r4Jyxg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732211600144?e=1738195200&v=beta&t=fIf29yfQhDEZES8vv74zu2aGByHKwCrJ8irey-K63_g"
+            <img src="https://avatars.githubusercontent.com/u/160087356?s=400&u=6fbb5e29788bb1b2c6899fe1f3ef7597f7d340f8&v=4"
              alt="Foto do usuário"/>
                 <div>
                     <span>Bem-vindo</span>
