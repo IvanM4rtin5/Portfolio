@@ -13,8 +13,7 @@ export function Header() {
     return(
         <Container>
             <Profile to="/">
-            <img src="https://avatars.githubusercontent.com/u/160087356?s=400&u=6fbb5e29788bb1b2c6899fe1f3ef7597f7d340f8&v=4"
-             alt="Foto do usuário"/>
+            <img src="https://avatars.githubusercontent.com/u/160087356?s=400&u=6fbb5e29788bb1b2c6899fe1f3ef7597f7d340f8&v=4"alt="Foto do usuário"/>
                 <div>
                     <span>Bem-vindo</span>
                 </div>
