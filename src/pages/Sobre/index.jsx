@@ -15,7 +15,7 @@ export function Sobre(){
        <h2> 👋 Olá, Me chamo Ivan Martins</h2>
        <Content>
           <p> 
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGCV800r4Jyxg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732211600144?e=1738195200&v=beta&t=fIf29yfQhDEZES8vv74zu2aGByHKwCrJ8irey-K63_g" alt="Foto do usuário"/>
+          <img src= "https://avatars.githubusercontent.com/u/160087356?s=400&u=6fbb5e29788bb1b2c6899fe1f3ef7597f7d340f8&v=4" alt="Foto do usuário"/>
           Sou um desenvolvedor de sistemas dedicado a criar soluções eficientes e inovadoras, com especialidade em JavaScript e Node.js. Ao longo da minha trajetória, finalizei diversos cursos complementares, que me permitiram aprimorar habilidades em tecnologias como React, Express, e muitas outras, sempre com o objetivo de trazer resultados impactantes e de alta qualidade em cada projeto.
 
             Atualmente, estou focado em aprimorar meu inglês para expandir minha atuação para projetos internacionais e abraçar novas oportunidades em um mercado global. Tenho um compromisso constante com meu desenvolvimento pessoal e profissional, acreditando que o aprendizado contínuo é essencial para me manter preparado e relevante frente aos desafios do setor de tecnologia.
