@@ -1,120 +1,161 @@
-# Portfólio
+# Portfólio Pessoal
 
-Este é o meu portfólio pessoal, criado com **React**, **Vite** e **Styled Components**. Aqui você pode encontrar informações sobre mim, 
-meus projetos e habilidades, além de poder entrar em contato comigo.
 
-## Tecnologias Utilizadas
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.3.4-B73BFE?logo=vite)](https://vitejs.dev/)
+[![Styled Components](https://img.shields.io/badge/Styled%20Components-6.1.13-DB7093?logo=styled-components)](https://styled-components.com/)
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Vite**: Ferramenta de build rápida e moderna.
-- **React Router DOM**: Biblioteca para navegação entre páginas em um aplicativo React.
-- **Styled Components**: Biblioteca para escrever CSS dentro do JavaScript.
-- **Axios**: Cliente HTTP para realizar requisições a APIs.
-- **EmailJS**: Serviço para envio de e-mails diretamente do front-end.
-- **Lucide React**: Ícones personalizados para React.
-- **ESLint**: Ferramenta de linting para manter a qualidade do código.
+Este é o meu portfólio pessoal, desenvolvido com **React**, **Vite** e **Styled Components**. Aqui você pode encontrar informações sobre mim, meus projetos, habilidades e entrar em contato diretamente comigo. O portfólio foi criado para demonstrar minhas habilidades como desenvolvedor front-end e minha capacidade de criar interfaces modernas e responsivas.
 
-## Funcionalidades
+---
 
-- **Página Home**: Visão geral do portfólio.
-- **Sobre mim**: Informações sobre minha trajetória profissional e experiência.
-- **Projetos**: Uma lista de projetos em que trabalhei, com links e descrições.
+## 🛠️ Tecnologias Utilizadas
+
+<div align="left">
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-B73BFE?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Styled%20Components-DB7093?logo=styled-components&logoColor=white" alt="Styled Components" />
+  <img src="https://img.shields.io/badge/React%20Router-CA4245?logo=react-router&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" alt="Axios" />
+  <img src="https://img.shields.io/badge/EmailJS-FFD700?logo=mail.ru&logoColor=white" alt="EmailJS" />
+  <img src="https://img.shields.io/badge/Lucide%20React-FF6B6B?logo=react&logoColor=white" alt="Lucide React" />
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
+</div>
+
+---
+
+## 🧩 Funcionalidades
+
+- **Página Inicial**: Visão geral do portfólio.
+- **Sobre Mim**: Informações sobre minha trajetória profissional e experiência.
+- **Projetos**: Lista dos projetos em que trabalhei, com links e descrições detalhadas.
 - **Habilidades**: Minhas principais habilidades e tecnologias que domino.
-- **Contato**: Formulário para que você possa entrar em contato comigo.
+- **Contato**: Formulário funcional para envio de e-mails diretamente do front-end (integrado com EmailJS).
 
+---
 
-## Link
-- https://portfolio-prime.netlify.app/
-
-  
-![Capa do Portfolio](https://github.com/IvanM4rtin5/Portfolio/blob/main/Portf%C3%B3lio-IvanMartins%20-%20Google%20Chrome%2019_01_2025%2014_09_58.png)
-
-  
-## Como Rodar o Projeto
+## 🚀 Como Rodar o Projeto
 
 ### Pré-requisitos
 
 Certifique-se de ter o **Node.js** instalado em sua máquina. Você pode verificar a versão instalada com o comando:
 
 ```bash
-node -v .
+node -v
 ```
+#### Passos para Rodar Localmente
 
-### Passos para rodar localmente
-
-Clone este repositório para o seu computador:
+Clone este repositório:
 ```bash
-git clone https://github.com/SEU-USUARIO/portfolio.git
+Copy
+git clone https://github.com/IvanM4rtin5/portfolio.git
 ```
-pasta cd portfolio
+Navegue até a pasta do projeto:
 
+```bash
+Copy
+cd portfolio
+```
 Instale as dependências:
 
-```bash 
+```bash
+Copy
 npm install
 ```
 Execute o projeto no modo de desenvolvimento:
 
-````bash
+```bash
+Copy
 npm run dev
-````
+```
 O projeto estará rodando em http://localhost:3000.
 
 Gerando o Build de Produção
-Caso queira gerar uma versão otimizada para produção, execute:
-
+Para gerar uma versão otimizada para produção, execute:
 
 ```bash
+Copy
 npm run build
 ```
-
 Para visualizar a versão de produção localmente, use:
 
-bash
-Copiar
+```bash
+Copy
 npm run preview
-Comandos Disponíveis
-- npm run dev: Inicia o servidor de desenvolvimento.
-- npm run build: Cria o build para produção.
-- npm run lint: Executa o ESLint para verificar o código.
-- npm run preview: Visualiza a versão de produção localmente.
-- 
-### Estrutura do Projeto
+```
+### 📂 Estrutura do Projeto
+```
+Copy
+portfolio/
+├── src/
+│   ├── components/       # Componentes reutilizáveis
+│   ├── pages/            # Páginas do portfólio (Home, Sobre, Projetos, etc.)
+│   ├── router/           # Configuração das rotas usando react-router-dom
+│   ├── styles/           # Arquivos de estilo globais e de tema (usando styled-components)
+│   └── App.jsx           # Componente principal
+├── public/               # Arquivos estáticos, como o index.html
+├── package.json          # Dependências do projeto
+└── README.md             # Documentação do projeto
+```
+### 📄 Dependências
 
-- **src**: Contém todo o código fonte do projeto
-- **components**: Componentes reutilizáveis
-- **pages**: Páginas do portfólio (Home, Sobre, Projetos, etc.)
-- **router**: Configuração das rotas usando react-router-dom
-- **styles**: Arquivos de estilo globais e de tema (usando styled-components)
-- **public**: Contém os arquivos estáticos, como o index.html
-
-### Dependências
-Aqui estão as principais dependências que o projeto utiliza:
-
-## Dependências:
+Principais Dependências
 
 - **axios**: ^1.7.5
+
 - **emailjs-com**: ^3.2.0
+
 - **lucide-react**: ^0.454.0
+
 - **react**: ^18.3.1
+
 - **react-dom**: ^18.3.1
+
 - **react-icons**: ^5.2.1
+
 - **react-router-dom**: ^6.27.0
+
 - **styled-components**: ^6.1.13
-  
-  # Dependências de Desenvolvimento:
-  
-- **@vitejs/plugin-react**: ^4.3.3
-- **eslint**: ^8.57.0
-- **eslint-plugin-react**: ^7.34.3
-- **eslint-plugin-react-hooks**: ^4.6.2
-- **eslint-plugin-react-refresh**: ^0.4.7
-- **vite**: ^5.3.4
+
+### Dependências de Desenvolvimento
+
+- ***@vitejs/plugin-react***: ^4.3.3
+
+- ***eslint***: ^8.57.0
+
+- ***eslint-plugin-react***: ^7.34.3
+
+- ***eslint-plugin-react-hook***s: ^4.6.2
+
+- ***eslint-plugin-react-refresh***: ^0.4.7
+
+- ***vite***: ^5.3.4
+
+### 💡 Meu Esforço e Dedicação
+Este portfólio foi desenvolvido com muito esforço e dedicação, buscando demonstrar minhas habilidades como desenvolvedor front-end. Alguns dos desafios que enfrentei e superei incluem:
+
+Integração com EmailJS: Implementação de um formulário de contato funcional que envia e-mails diretamente do front-end.
+
+Design Responsivo: Criação de uma interface que se adapta a diferentes dispositivos e tamanhos de tela.
+
+Organização do Código: Uso de boas práticas como componentização, styled-components e ESLint para manter o código limpo e organizado.
+
+Acredito que este projeto reflete minha capacidade de trabalhar com tecnologias modernas e entregar soluções de alta qualidade.
+
+### 🌐 Link do Projeto
+Você pode acessar o portfólio online em:
+https://portfolio-prime.netlify.app/
 
 
+### 📧 Contato
+Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem:
 
+**Nome**: [ Ivan Martins]
 
+**E-mail**: [ivanmarti.alves@gmail.com]
 
+**LinkedIn**: [https://www.linkedin.com/in/ivan-martins-alves/]
 
-
-
+---
+Obrigado por visitar meu portfólio! Espero que ele demonstre minhas habilidades e meu comprometimento com a excelência no desenvolvimento de software. 😊
+---
