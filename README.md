@@ -47,25 +47,22 @@ node -v
 
 Clone este repositório:
 ```bash
-Copy
+
 git clone https://github.com/IvanM4rtin5/portfolio.git
 ```
 Navegue até a pasta do projeto:
 
 ```bash
-Copy
 cd portfolio
 ```
 Instale as dependências:
 
 ```bash
-Copy
 npm install
 ```
 Execute o projeto no modo de desenvolvimento:
 
 ```bash
-Copy
 npm run dev
 ```
 O projeto estará rodando em http://localhost:3000.
@@ -74,18 +71,16 @@ Gerando o Build de Produção
 Para gerar uma versão otimizada para produção, execute:
 
 ```bash
-Copy
+
 npm run build
 ```
 Para visualizar a versão de produção localmente, use:
 
 ```bash
-Copy
 npm run preview
 ```
 ### 📂 Estrutura do Projeto
 ```
-Copy
 portfolio/
 ├── src/
 │   ├── components/       # Componentes reutilizáveis
