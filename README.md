@@ -23,7 +23,7 @@ meus projetos e habilidades, além de poder entrar em contato comigo.
 - **Contato**: Formulário para que você possa entrar em contato comigo.
 
 
-# Link
+## Link
 - https://portfolio-prime.netlify.app/
 
   
@@ -44,25 +44,29 @@ node -v .
 
 Clone este repositório para o seu computador:
 ```bash
-Copiar
 git clone https://github.com/SEU-USUARIO/portfolio.git
 ```
 pasta cd portfolio
 
 Instale as dependências:
-bash
-```npm install```
+
+```bash 
+npm install
+```
 Execute o projeto no modo de desenvolvimento:
-bash
-Copiar
-``npm run dev``
+
+````bash
+npm run dev
+````
 O projeto estará rodando em http://localhost:3000.
 
 Gerando o Build de Produção
 Caso queira gerar uma versão otimizada para produção, execute:
 
-bash
-```npm run build```
+
+```bash
+npm run build
+```
 
 Para visualizar a versão de produção localmente, use:
 
