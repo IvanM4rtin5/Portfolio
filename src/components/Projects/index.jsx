@@ -1,10 +1,10 @@
 import React from "react";
 import { FolderKanban } from "lucide-react";
-import { ProjectSectionContainer } from "./styles"; // Importe o estilo
-import projectImage from '../../assets/Site RBD - Google Chrome 06_11_2024 00_30_21.png';
-import projectImage1 from '../../assets/LISTA DE TAREFAS - Google Chrome 09_11_2024 12_34_25.png';
+import { ProjectSectionContainer } from "./styles";
+import dtMoneyImage from '../../assets/DT MONEY - Google Chrome 02_03_2025 15_41_42.png';
+import sefazImage from '../../assets/telaMaceio_IN.jpeg';
 import projectImage2 from '../../assets/Escala de Plantão - Google Chrome 09_11_2024 12_38_16.png';
-import projectImage3 from '../../assets/IvanM4rtin5_API_ API com banco de dados relacional - Google Chrome 09_11_2024 13_02_53.png';
+import rocketNotesImage from '../../assets/note.png';
 
 export function ProjectSection ()  {
   const projects = [
@@ -20,7 +20,7 @@ export function ProjectSection ()  {
       description: 'Projeto FullStack desenvolvido para o processo seletivo da SEFAZ Maceió. Utiliza Django para o backend e Vue.js para o frontend, com funcionalidades como autenticação e gerenciamento de funcionários.',
       technologies: ['Django', 'Vue.js', 'PrimeVue', 'Bootstrap', 'Axios'],
       image: sefazImage,
-      link: 'https://github.com/IvanM4rtin5/Dev_FullStack'
+      link: 'https://github.com/IvanM4rtin5/Maceio_IN'
     },
    {
       title: 'RocketNotes - Gerenciador de Anotações',
