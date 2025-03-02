@@ -16,7 +16,7 @@ export const Container = styled.div`
     height: vh;
     max-width: 1120px;
     margin: 0  auto;
-    padding-top: 90px; // 70px (altura do header) + 20px de espaço extra
+    padding-top: 90px; 
     padding-left: 20px;
     padding-right: 20px;
     animation: ${fadeInUp} 0.8s ease-out;
@@ -61,13 +61,13 @@ export const Form = styled.form`
     margin-right: 60px;
   }
   .image-loop{
-    overflow: hidden;/*esconde o excesso*/
-    white-space: nowrap; /*impede quebra de linha*/
-    position: relative;/*para o posicionamento da animação*/
+    overflow: hidden;
+    white-space: nowrap; 
+    position: relative;
   }
   .images{
-    display: flex; /*permiteque as imagens fiquem na mesma linha*/
-    animation: scroll 20s linear infinite; /*animação */
+    display: flex; 
+    animation: scroll 20s linear infinite; 
   }
   @keyframes scroll {
     0%{
@@ -95,7 +95,7 @@ export const Form = styled.form`
 
 export const Content = styled.div`
   display: flex;
-  flex-direction: row-reverse; // Inverte a ordem para imagem ficar à direita
+  flex-direction: row-reverse; 
   gap: 24px;
   margin-bottom: 24px;
   align-items: flex-start;
