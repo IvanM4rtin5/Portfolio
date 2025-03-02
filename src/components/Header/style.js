@@ -5,12 +5,12 @@ export const Container = styled.header`
     width: 100%;
     height: 70px;
     padding: 0 24px;
-    position: fixed; // Alterado de relative para fixed
-    top: 0; // Adicionado
-    left: 0; // Adicionado
-    right: 0; // Adicionado
-    z-index: 1000; // Adicionado para garantir que fique sobre outros elementos
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900}; // Adicionado para garantir que o fundo seja visível
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900}; 
     
     display: flex;
     justify-content: space-between;
