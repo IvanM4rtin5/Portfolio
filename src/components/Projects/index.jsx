@@ -11,28 +11,28 @@ export function ProjectSection ()  {
     {
       title: 'DT Money - Controle Financeiro',
       description: 'Aplicação de controle financeiro desenvolvida com React, TypeScript e Styled Components. Permite gerenciar transações, visualizar saldos e acompanhar despesas e receitas.',
-      technologies: ['React', 'TypeScript', 'Styled Components', 'Axios', 'Context API'],
+      technologies: ['React', 'typescript', 'vite', 'sqldeveloper', 'postgresql', 'prisma'],
       image:dtMoneyImage ,
       link: 'https://github.com/IvanM4rtin5/DtMoney-Frontend'
     },
     {
       title: 'SEFAZ Maceió - FullStack',
       description: 'Projeto FullStack desenvolvido para o processo seletivo da SEFAZ Maceió. Utiliza Django para o backend e Vue.js para o frontend, com funcionalidades como autenticação e gerenciamento de funcionários.',
-      technologies: ['Django', 'vue', 'PrimeVue', 'Bootstrap', 'Axios'],
+      technologies: ['django', 'vuejs', 'axios', 'Bootstrap', 'postman', 'axios'],
       image: sefazImage,
       link: 'https://github.com/IvanM4rtin5/Maceio_IN'
     },
    {
       title: 'RocketNotes - Gerenciador de Anotações',
       description: 'Aplicação para criar e gerenciar anotações, desenvolvida com React, Vite e Styled Components. Inclui autenticação, navegação condicional e gerenciamento de notas.',
-      technologies: ['React', 'Vite', 'Styled Components', 'React Router', 'Axios'],
+      technologies: ['React', 'Vite', 'sqldeveloper', 'React Router','netlify', 'axios'],
       image: rocketNotesImage,
       link: 'https://github.com/IvanM4rtin5/Front-RocketNotes'
     },
       {
         title: ' Projeto - Escala/Plantão',
         description: 'O projeto Escala/Plantão é uma aplicação interativa que permite a criação e gestão de escalas de plantão para até 30 dias, com folgas programadas de 12/48 horas. A aplicação é voltada para o gerenciamento eficiente de turnos de trabalho, sendo ideal para equipes que precisam de uma escala rotativa, como médicos, enfermeiros ou operadores de plantão. O sistema gera automaticamente as escalas, distribuindo as folgas de acordo com o padrão de 12 horas de trabalho seguidas por 48 horas de descanso.',
-        technologies: ['HTML5', 'Javascript','css3'],
+        technologies: ['HTML5', 'Javascript','css3', 'netlify'],
         image: projectImage2,
         link:'https://esc-plantao.netlify.app/'
       }
