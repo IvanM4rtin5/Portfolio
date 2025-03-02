@@ -34,13 +34,13 @@ export const ProjectSectionContainer = styled.div`
 
   .project-image {
     width: 100%;
-    height: 150px; /* Limita a altura da imagem principal */
-    object-fit: cover; /* Mantém a proporção e corta se necessário */
+    height: 150px; 
+    object-fit: cover; 
     padding-right: 15px;
   }
   
   .tech-icon {
-    width: 45px; /* Tamanho dos ícones de tecnologia */
+    width: 45px; 
     height: auto;
     margin:15px 5px 0 5px;
   }
