@@ -18,7 +18,7 @@ export function ProjectSection ()  {
     {
       title: 'SEFAZ Maceió - FullStack',
       description: 'Projeto FullStack desenvolvido para o processo seletivo da SEFAZ Maceió. Utiliza Django para o backend e Vue.js para o frontend, com funcionalidades como autenticação e gerenciamento de funcionários.',
-      technologies: ['django', 'vuejs', 'axios', 'Bootstrap', 'postman', 'axios'],
+      technologies: ['django', 'vuejs', 'Bootstrap', 'postman', 'axios'],
       image: sefazImage,
       link: 'https://github.com/IvanM4rtin5/Maceio_IN'
     },
