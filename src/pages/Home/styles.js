@@ -16,14 +16,14 @@ export const Container = styled.div`
     position: absolute;
     inset: 0;
     background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-    opacity: 0.3; // Ajuste a opacidade conforme necessário
-    z-index: 1; // Garante que o conteúdo fique acima da sobreposição
+    opacity: 0.3; 
+    z-index: 1;
   }
 
   > * {
     flex: 1;
     position: relative;
-    z-index: 2; // Garante que o conteúdo esteja sobre a sobreposição
+    z-index: 2; 
   }
 
   .header-home {
@@ -38,7 +38,7 @@ export const Form = styled.form`
   align-items: center;
   text-align: center;
   animation: fadeIn 0.8s ease-out;
-  max-width: 100%; // Limita a largura para simular uma coluna
+  max-width: 100%; 
 
   @keyframes fadeIn {
     from {
@@ -101,9 +101,9 @@ export const Form = styled.form`
 `;
 export const LinksContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr; // Duas colunas
-  gap: 16px; // Espaçamento entre os itens
-  margin-top: 16px; // Espaçamento superior para afastar do título
+  grid-template-columns: 1fr 1fr; 
+  gap: 16px; 
+  margin-top: 16px; 
 
   a {
     text-decoration: none;
