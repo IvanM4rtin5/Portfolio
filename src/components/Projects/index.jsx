@@ -25,7 +25,7 @@ export function ProjectSection ()  {
    {
       title: 'RocketNotes - Gerenciador de Anotações',
       description: 'Aplicação para criar e gerenciar anotações, desenvolvida com React, Vite e Styled Components. Inclui autenticação, navegação condicional e gerenciamento de notas.',
-      technologies: ['React', 'Vite', 'sqldeveloper', 'React Router','netlify', 'axios'],
+      technologies: ['React', 'Vite', 'sqldeveloper', 'reactrouter','netlify', 'axios'],
       image: rocketNotesImage,
       link: 'https://github.com/IvanM4rtin5/Front-RocketNotes'
     },
