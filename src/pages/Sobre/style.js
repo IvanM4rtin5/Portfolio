@@ -16,7 +16,7 @@ export const Container = styled.div`
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding-top: calc(70px + 10px); // 70px (altura do header) + 10px de espaço extra
+    padding-top: calc(70px + 10px);
     padding-left: 15px;
     padding-right: 15px;
     animation: ${fadeInUp} 0.8s ease-out;
