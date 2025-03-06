@@ -141,7 +141,7 @@ Acredito que este projeto reflete minha capacidade de trabalhar com tecnologias 
 
 ### 🌐 Link do Projeto
 Você pode acessar o portfólio online em:
-https://portfolio-prime.netlify.app/
+https://ivan-martins-alves.netlify.app/
 
 
 ### 📧 Contato
