@@ -8,14 +8,15 @@ import {
     FaJs, 
     FaNodeJs, 
     FaPython, 
-    FaJava, 
-    FaDatabase,
+    FaGit,
     FaGithub,
-    FaDocker
+    FaDocker,
+    FaVuejs,
+    FaAws,
 } from 'react-icons/fa';
-import { SiTypescript, SiMongodb, SiMysql, SiPostgresql, SiFigma } from 'react-icons/si';
+import { SiTypescript, SiSqlite, SiMysql, SiPostgresql, SiFigma, SiDjango, SiNetlify, SiRender } from 'react-icons/si';
 
-export function Habilidades() {
+export function Skills() {
     const skills = [
         {
             category: "Front-end",
@@ -25,7 +26,8 @@ export function Habilidades() {
                 { name: "HTML5", icon: <FaHtml5 /> },
                 { name: "CSS3", icon: <FaCss3Alt /> },
                 { name: "JavaScript", icon: <FaJs /> },
-                { name: "TypeScript", icon: <SiTypescript /> }
+                { name: "Vue.js", icon: <FaVuejs /> },
+                { name: "TypeScript", icon: <SiTypescript /> },
             ]
         },
         {
@@ -34,23 +36,29 @@ export function Habilidades() {
             technologies: [
                 { name: "Node.js", icon: <FaNodeJs /> },
                 { name: "Python", icon: <FaPython /> },
-                { name: "APIs RESTful", icon: <Globe size={16} /> }
-            ]
+                { name: "APIs RESTful", icon: <Globe size={16} /> },
+                { name: "Docker", icon: <FaDocker /> },
+                { name: "Django", icon: <SiDjango /> },]
         },
         {
             category: "Banco de Dados",
             icon: <Database size={24} />,
             technologies: [
                 { name: "MySQL", icon: <SiMysql /> },
-                { name: "PostgreSQL", icon: <SiPostgresql /> }
+                { name: "PostgreSQL", icon: <SiPostgresql /> },
+                { name: "SQLite", icon: <SiSqlite /> },
+                { name: "Render", icon: <SiRender /> },
             ]
         },
         {
             category: "Outros",
             icon: <Globe size={24} />,
             technologies: [
-                { name: "Git", icon: <FaGithub /> },
-                { name: "Figma", icon: <SiFigma /> }
+                { name: "GitHub", icon: <FaGithub /> },
+                { name: "Figma", icon: <SiFigma /> },
+                { name: "Git", icon: <FaGit /> },
+                { name: "AWS", icon: <FaAws /> },
+                { name: "Netlify", icon: <SiNetlify /> },
             ]
         }
     ];

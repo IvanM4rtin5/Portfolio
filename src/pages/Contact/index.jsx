@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com';
 import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 import { Container, ContactWrapper, ContactInfo, ContactForm } from "./styles";
 
-export function Contatos() {
+export function Contacts() {
     const handleSubmit = (event) => {
         event.preventDefault();
 
