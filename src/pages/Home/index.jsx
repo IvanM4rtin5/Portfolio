@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { Button } from "../../components/button"
+import BackgroundParticles from "../../components/Background"
 import { Container, Background, Form, LinksContainer } from "./styles"
 import {FaAddressBook,FaHome,FaRegFileCode,FaList } from "react-icons/fa";
 
@@ -8,7 +9,9 @@ import {FaAddressBook,FaHome,FaRegFileCode,FaList } from "react-icons/fa";
 export function Home() {
   return (
     <Container>
-      <Form>
+    <BackgroundParticles/>
+
+    <Form>
         <h1>Ivan - Martins</h1>
 
         <h2>Desenvolvedor de sistemas dedicado a criar soluções eficientes e inovadoras</h2>

@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("https://img.freepik.com/vetores-gratis/vetor-de-fundo-do-sistema-de-rede-em-nuvem-para-banner-de-midia-social_53876-111850.jpg?t=st=1730775257~exp=1730778857~hmac=b62179bd26d9779bd8a279bc002f9f69b0ae5fad46ed9d5128f8b93a77c6a098&w=740") no-repeat center center;
+  /* background: url("https://img.freepik.com/vetores-gratis/vetor-de-fundo-do-sistema-de-rede-em-nuvem-para-banner-de-midia-social_53876-111850.jpg?t=st=1730775257~exp=1730778857~hmac=b62179bd26d9779bd8a279bc002f9f69b0ae5fad46ed9d5128f8b93a77c6a098&w=740") no-repeat center center; */
   background-size: cover;
   position: relative;
 
@@ -53,7 +53,7 @@ export const Form = styled.form`
 
   > h1 {
     font-size: 70px;
-    color: ${({ theme }) => theme.COLORS.WHITE};
+    color: ${({ theme }) => theme.COLORS.ORANGE};
     margin-bottom: 24px;
 
     @media (max-width: 768px) {
@@ -112,7 +112,6 @@ export const LinksContainer = styled.div`
 
 export const Background = styled.div`
   flex: 1;
-  background: url("https://br.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_38669456.htm#fromView=keyword&page=3&position=32&uuid=8eff4681-fcfc-4fe7-ac85-4df62bbd53eb") no-repeat center center;
   background-size: cover;
   background-position: right;
   position: relative;
