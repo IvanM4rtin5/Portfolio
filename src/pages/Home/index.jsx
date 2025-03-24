@@ -12,7 +12,7 @@ export function Home() {
     <BackgroundParticles/>
 
     <Form>
-        <h1>Ivan - Martins</h1>
+        <h1>Ivan Martins</h1>
 
         <h2>Desenvolvedor de sistemas dedicado a criar soluções eficientes e inovadoras</h2>
         <LinksContainer>
