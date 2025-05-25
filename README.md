@@ -1,17 +1,19 @@
-# Portfólio Pessoal
+# Personal Portfolio
 
+## 📗 [Version in Portuguese](README.pt.md)
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.3.4-B73BFE?logo=vite)](https://vitejs.dev/)
 [![Styled Components](https://img.shields.io/badge/Styled%20Components-6.1.13-DB7093?logo=styled-components)](https://styled-components.com/)
 
-Este é o meu portfólio pessoal, desenvolvido com **React**, **Vite** e **Styled Components**. Aqui você pode encontrar informações sobre mim, meus projetos, habilidades e entrar em contato diretamente comigo. O portfólio foi criado para demonstrar minhas habilidades como desenvolvedor front-end e minha capacidade de criar interfaces modernas e responsivas.
+
+This is my personal portfolio, developed with **React**, **Vite** and **Styled Components**. Here you can find information about me, my projects, skills and contact me directly. The portfolio was created to demonstrate my skills as a front-end developer and my ability to create modern and responsive interface
 
 ---
-![Image](https://github.com/IvanM4rtin5/Portfolio/blob/main/Portf%C3%B3lio-IvanMartins%20-%20Google%20Chrome%2019_01_2025%2014_09_58.png) 
+![Image](https://github.com/IvanM4rtin5/Portfolio/blob/main/src/assets/Portf%C3%B3lio-IvanMartins.png) 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 <div align="left">
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
@@ -26,77 +28,73 @@ Este é o meu portfólio pessoal, desenvolvido com **React**, **Vite** e **Style
 
 ---
 
-## 🧩 Funcionalidades
+## 🧩 Features
 
-- **Página Inicial**: Visão geral do portfólio.
-- **Sobre Mim**: Informações sobre minha trajetória profissional e experiência.
-- **Projetos**: Lista dos projetos em que trabalhei, com links e descrições detalhadas.
-- **Habilidades**: Minhas principais habilidades e tecnologias que domino.
-- **Contato**: Formulário funcional para envio de e-mails diretamente do front-end (integrado com EmailJS).
+- **Home Page**: Portfolio overview.
+- **About Me**: Information about my professional career and experience.
+- **Projects**: List of projects I worked on, with links and detailed descriptions.
+- **Skills**: My main skills and technologies that I master.
+- **Contact**: Functional form for sending emails directly from the front-end (integrated with EmailJS).
 
 ---
 
-## 🚀 Como Rodar o Projeto
+## 🚀How to Run the Project
 
-### Pré-requisitos
 
-Certifique-se de ter o **Node.js** instalado em sua máquina. Você pode verificar a versão instalada com o comando:
+Make sure you have **Node.js** installed on your machine. You can check the installed version with the command:
 
 ```bash
 node -v
 ```
-#### Passos para Rodar Localmente
+#### Steps to Run Locally
 
-Clone este repositório:
+Clone this repository:
 ```bash
-
 git clone https://github.com/IvanM4rtin5/portfolio.git
 ```
-Navegue até a pasta do projeto:
-
+Navigate to the project folder:
 ```bash
 cd portfolio
 ```
-Instale as dependências:
-
+Install dependencies:
 ```bash
 npm install
 ```
-Execute o projeto no modo de desenvolvimento:
-
+Run the project in development mode:
 ```bash
 npm run dev
 ```
-O projeto estará rodando em http://localhost:3000.
+The project will be running at http://localhost:3000.
 
-Gerando o Build de Produção
-Para gerar uma versão otimizada para produção, execute:
+
+### Generating the Production Build
+To generate a production-optimized version, run:
 
 ```bash
-
 npm run build
 ```
-Para visualizar a versão de produção localmente, use:
-
+To view the production version locally, use:
 ```bash
 npm run preview
 ```
-### 📂 Estrutura do Projeto
+### 📂 Struct of Project
 ```
 portfolio/
 ├── src/
-│   ├── components/       # Componentes reutilizáveis
-│   ├── pages/            # Páginas do portfólio (Home, Sobre, Projetos, etc.)
-│   ├── router/           # Configuração das rotas usando react-router-dom
-│   ├── styles/           # Arquivos de estilo globais e de tema (usando styled-components)
-│   └── App.jsx           # Componente principal
-├── public/               # Arquivos estáticos, como o index.html
-├── package.json          # Dependências do projeto
-└── README.md             # Documentação do projeto
+│ ├── assets/        # files of image
+│ ├── components/    # Reusable components
+│ ├── pages/         # Portfolio pages (Home, About, Projects, etc.)
+│ ├── router/        # Route configuration using react-router-dom
+│ ├── styles/        # Global and theme style files (using styled-components)
+│ └── App.jsx        # Main component
+├── public/          # Static files, such as index.html
+├── package.json     # Project dependencies
+└── README.md        # Project documentation
+└── README.pt.md     # Project documentation in PT-BR
 ```
-### 📄 Dependências
+### 📄 Dependencies
 
-Principais Dependências
+Main Dependencies
 
 - **axios**: ^1.7.5
 
@@ -114,7 +112,8 @@ Principais Dependências
 
 - **styled-components**: ^6.1.13
 
-### Dependências de Desenvolvimento
+
+### Development Dependencies
 
 - ***@vitejs/plugin-react***: ^4.3.3
 
@@ -128,31 +127,31 @@ Principais Dependências
 
 - ***vite***: ^5.3.4
 
-### 💡 Meu Esforço e Dedicação
-Este portfólio foi desenvolvido com muito esforço e dedicação, buscando demonstrar minhas habilidades como desenvolvedor front-end. Alguns dos desafios que enfrentei e superei incluem:
 
-Integração com EmailJS: Implementação de um formulário de contato funcional que envia e-mails diretamente do front-end.
+### 💡 My Effort and Dedication
+This portfolio was developed with a lot of effort and dedication, seeking to demonstrate my skills as a front-end developer. Some of the challenges I have faced and overcome include:
 
-Design Responsivo: Criação de uma interface que se adapta a diferentes dispositivos e tamanhos de tela.
+Integration with EmailJS: Implementation of a functional contact form that sends emails directly from the front-end.
 
-Organização do Código: Uso de boas práticas como componentização, styled-components e ESLint para manter o código limpo e organizado.
+Responsive Design: Creating an interface that adapts to different devices and screen sizes.
 
-Acredito que este projeto reflete minha capacidade de trabalhar com tecnologias modernas e entregar soluções de alta qualidade.
+Code Organization: Use of best practices such as componentization, styled-components and ESLint to keep the code clean and organized.
 
-### 🌐 Link do Projeto
-Você pode acessar o portfólio online em:
+I believe that this project reflects my ability to work with modern technologies and deliver high-quality solutions.
+
+### 🌐 Project Link
+You can access the online portfolio at:
 https://ivan-martins-alves.netlify.app/
 
+### 📧 Contact
+If you have any questions or want to get in touch, feel free to send me a message:
 
-### 📧 Contato
-Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem:
+**Name**: [ Ivan Martins]
 
-**Nome**: [ Ivan Martins]
-
-**E-mail**: [ivanmarti.alves@gmail.com]
+**Email**: [ivanmarti.alves@gmail.com]
 
 **LinkedIn**: [https://www.linkedin.com/in/ivan-martins-alves/]
 
 ---
-Obrigado por visitar meu portfólio! Espero que ele demonstre minhas habilidades e meu comprometimento com a excelência no desenvolvimento de software. 😊
+Thank you for visiting my portfolio! I hope it demonstrates my skills and my commitment to excellence in software development. 😊
 ---
