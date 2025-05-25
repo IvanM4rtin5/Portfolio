@@ -1,9 +1,7 @@
 
 # Portfólio Pessoal
 
-## 🌐 Language
-
-📘 [Versão em Inglês](README.md)  
+## 📘 [Versão em Inglês](README.md)  
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.3.4-B73BFE?logo=vite)](https://vitejs.dev/)
