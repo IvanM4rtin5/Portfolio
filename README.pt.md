@@ -1,6 +1,9 @@
 
 # Portfólio Pessoal
 
+## 🌐 Language
+
+📘 [Version English](README.md)  
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.3.4-B73BFE?logo=vite)](https://vitejs.dev/)
@@ -43,46 +46,47 @@ Este é o meu portfólio pessoal, desenvolvido com **React**, **Vite** e **Style
 
 Certifique-se de ter o **Node.js** instalado em sua máquina. Você pode verificar a versão instalada com o comando:
 
-bash
+```bash
 node -v
-
+```
 #### Passos para Rodar Localmente
 
 Clone este repositório:
-bash
-
+```bash
 git clone https://github.com/IvanM4rtin5/portfolio.git
-
+```
 Navegue até a pasta do projeto:
 
-bash
+```bash
 cd portfolio
-
+```
 Instale as dependências:
 
-bash
+```bash
 npm install
-
+```
 Execute o projeto no modo de desenvolvimento:
 
-bash
+```bash
 npm run dev
-
+```
 O projeto estará rodando em http://localhost:3000.
 
 Gerando o Build de Produção
 Para gerar uma versão otimizada para produção, execute:
 
-bash
-
+```bash
 npm run build
-
+```
 Para visualizar a versão de produção localmente, use:
 
-bash
+
+```bash
 npm run preview
+```
 
 ### 📂 Estrutura do Projeto
+```
 portfolio/
 ├── src/
 │   ├── components/       # Componentes reutilizáveis
@@ -93,6 +97,7 @@ portfolio/
 ├── public/               # Arquivos estáticos, como o index.html
 ├── package.json          # Dependências do projeto
 └── README.md             # Documentação do projeto
+```
 
 ### 📄 Dependências
 
