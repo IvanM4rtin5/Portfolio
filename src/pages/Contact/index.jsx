@@ -38,7 +38,7 @@ export function Contacts() {
                         <Phone size={20} />
                         <span>(82) 99829-6640</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/ivan-martins-2948572b1/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/ivan-martins-alves/" target="_blank" rel="noopener noreferrer">
                         <Linkedin size={20} />
                         <span>LinkedIn</span>
                     </a>
