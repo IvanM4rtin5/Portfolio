@@ -48,7 +48,7 @@ export function Contacts() {
                     
                     </a>
                     {/* Botão para baixar o currículo */}
-                    <a href="https://docs.google.com/document/d/1Jmp6VpPOdXkQQStRseRUlp4u_fsTx8nwAkyQ0PF4iHk/export?format=pdf" download="Cv-Ivan.pdf" target="_blank">
+                    <a href="https://docs.google.com/document/d/1cYBa9HRPP5ztBEPl2o1HkNDp-dQ1wT87zNNvEoZk3lg/export?format=pdf" download="Cv-Ivan.pdf" target="_blank">
                         <Button title="Baixar Currículo"/>
                     </a>
                 </ContactInfo>
