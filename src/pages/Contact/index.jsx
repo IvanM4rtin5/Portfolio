@@ -38,7 +38,11 @@ export function Contacts() {
                 
             <ContactInfo>
             <div >
-            <a href="mailto:ivanmarti.alves@gmail.com" target="_blank" rel="noopener noreferrer" style={{  marginRight: '32px'}} >
+            <a 
+              href="mailto:ivanmarti.alves@gmail.com"
+              style={{ marginRight: '32px' }}
+              aria-label="Enviar e-mail para ivanmarti.alves@gmail.com"
+             >
                 <Mail size={20}
                 />
                 <span>Email</span>
