@@ -90,7 +90,7 @@ export const Navigation = styled.nav`
     a {
         color: ${({ theme }) => theme.COLORS.GRAY_100};
         text-decoration: none;
-        transition: all 0.2s;
+        transition: color 0.2s, background-color 0.2s, transform 0.2s;
         font-size: 16px;
         height: 100%;
         display: flex;
