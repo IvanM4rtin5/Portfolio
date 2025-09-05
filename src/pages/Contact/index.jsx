@@ -1,4 +1,3 @@
-// Contato/index.jsx
 import { useRef } from 'react';
 import { Header } from '../../components/Header';
 import { Button } from '../../components/button';
@@ -8,11 +7,6 @@ import { Container, ContactWrapper, ContactInfo, ContactForm } from "./styles";
 
 
 export function Contacts() {
-    console.log(
-            import.meta.env.VITE_SERVICE_ID,
-            import.meta.env.VITE_TEMPLATE_ID,
-             import.meta.env.VITE_PUBLIC_KEY 
-    )
     const handleSubmit = (event) => {
         event.preventDefault();
 
