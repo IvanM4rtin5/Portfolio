@@ -9,7 +9,7 @@ import rocketNotesImage from '../../assets/note.png';
 export function ProjectSection ()  {
   const projects = [
          {
-        title: ' Farmacinha-On_line - Gerenciador de Medicamentos,Horarios,Calendario e etc...',
+        title: ' Farmacinha-App - Gerenciador de Medicamentos',
         description: 'Aplicativo para controle e suporte ao uso de múltiplos medicamentos, com funcionalidades de gestão de estoque, controle de compras e calendário de uso. Inclui cards interativos para facilitar as ações diárias do usuário, além de notificações em tempo real para alertar quando um medicamento está prestes a acabar ou já terminou.',
         technologies: [
           'vuejs/vuejs-original.svg', 
@@ -90,3 +90,4 @@ export function ProjectSection ()  {
     </ProjectSectionContainer>
   );
 };
+
