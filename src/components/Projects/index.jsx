@@ -3,39 +3,63 @@ import { FolderKanban } from "lucide-react";
 import { ProjectSectionContainer } from "./styles";
 import dtMoneyImage from '../../assets/DT MONEY - Google Chrome 02_03_2025 15_41_42.png';
 import sefazImage from '../../assets/telaMaceio_IN.jpeg';
-import projectImage2 from '../../assets/Escala de Plantão - Google Chrome 09_11_2024 12_38_16.png';
+import projectImage2 from '../../assets/Farmacinha e mais 7 páginas - Perfil 1 — Microsoft​ Edge 11_09_2025 12_03_56.png';
 import rocketNotesImage from '../../assets/note.png';
 
 export function ProjectSection ()  {
   const projects = [
+         {
+        title: ' Farmacinha-On_line - Gerenciador de Medicamentos,Horarios,Calendario e etc...',
+        description: 'Aplicativo para controle e suporte ao uso de múltiplos medicamentos, com funcionalidades de gestão de estoque, controle de compras e calendário de uso. Inclui cards interativos para facilitar as ações diárias do usuário, além de notificações em tempo real para alertar quando um medicamento está prestes a acabar ou já terminou.',
+        technologies: [
+          'vuejs/vuejs-original.svg', 
+          'quasar/quasar-original.svg', 
+          'firebase/firebase-original.svg',
+          'python/python-original.svg',
+          'fastapi/fastapi-original.svg',
+          'postgresql/postgresql-original.svg'],
+        image: projectImage2,
+        link:'https://minhafarmacinha-app.web.app/'
+      },
     {
       title: 'DT Money - Controle Financeiro',
       description: 'Aplicação de controle financeiro desenvolvida com React, TypeScript e Styled Components. Permite gerenciar transações, visualizar saldos e acompanhar despesas e receitas.',
-      technologies: ['React', 'typescript', 'vite', 'sqldeveloper', 'postgresql', 'prisma'],
+      technologies: [
+        'React/react-original.svg', 
+        'styledcomponents/styledcomponents-original.svg', 
+        'vite/vite-original.svg',
+        'netlify/netlify-original.svg',
+        'postgresql/postgresql-original.svg', 
+        'prisma/prisma-original.svg'],
       image:dtMoneyImage ,
       link: 'https://github.com/IvanM4rtin5/DtMoney-Frontend'
     },
     {
       title: 'SEFAZ Maceió - FullStack',
       description: 'Projeto FullStack desenvolvido para o processo seletivo da SEFAZ Maceió. Utiliza Django para o backend e Vue.js para o frontend, com funcionalidades como autenticação e gerenciamento de funcionários.',
-      technologies: ['django', 'vuejs', 'Bootstrap', 'postman', 'axios'],
+      technologies: [
+        'vuejs/vuejs-original.svg', 
+        'Bootstrap/bootstrap-original.svg', 
+        'postman/postman-original.svg', 
+        'axios/axios-plain.svg',
+        'django/django-plain.svg',],
       image: sefazImage,
       link: 'https://github.com/IvanM4rtin5/Maceio_IN'
     },
    {
       title: 'RocketNotes - Gerenciador de Anotações',
       description: 'Aplicação para criar e gerenciar anotações, desenvolvida com React, Vite e Styled Components. Inclui autenticação, navegação condicional e gerenciamento de notas.',
-      technologies: ['React', 'Vite', 'sqldeveloper', 'reactrouter','netlify', 'axios'],
+      technologies: [
+        'React/React-original.svg', 
+        'Vite/Vite-original.svg', 
+        'reactrouter/reactrouter-original.svg',
+        'netlify/netlify-original.svg', 
+        'axios/axios-plain.svg',
+      'sqldeveloper/sqldeveloper-original.svg', 
+      ],
       image: rocketNotesImage,
       link: 'https://github.com/IvanM4rtin5/Front-RocketNotes'
     },
-      {
-        title: ' Projeto - Escala/Plantão',
-        description: 'O projeto Escala/Plantão é uma aplicação interativa que permite a criação e gestão de escalas de plantão para até 30 dias, com folgas programadas de 12/48 horas. A aplicação é voltada para o gerenciamento eficiente de turnos de trabalho, sendo ideal para equipes que precisam de uma escala rotativa, como médicos, enfermeiros ou operadores de plantão. O sistema gera automaticamente as escalas, distribuindo as folgas de acordo com o padrão de 12 horas de trabalho seguidas por 48 horas de descanso.',
-        technologies: ['HTML5', 'Javascript','css3', 'netlify'],
-        image: projectImage2,
-        link:'https://esc-plantao.netlify.app/'
-      }
     ];
 
   return (
@@ -53,7 +77,7 @@ export function ProjectSection ()  {
                 {project.technologies.map((tech, i) => (
                   <img
                     key={i}
-                    src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech.toLowerCase()}/${tech.toLowerCase()}-original.svg`}
+                    src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech.toLowerCase()}`}
                     alt={`${tech} logo`}
                     className="tech-icon"
                   />
