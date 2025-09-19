@@ -1,11 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { BackgroundWrapper } from "./styles"; // Importando o estilo
+import { BackgroundWrapper } from "./styles";
 
 const BackgroundParticles = () => {
   const particlesInit = async (engine) => {
-    console.log("Particles engine:", engine); // 🔥 Debug para garantir que a engine está carregando
+    // console.log("Particles engine:", engine); 
     await loadFull(engine);
   };
   
