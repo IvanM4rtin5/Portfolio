@@ -39,5 +39,14 @@
   "header":{
     "title": "Bem-Vindo",
     "home":"Home"
+  },
+  "works":{
+    "title1":"Farmacinha-App - Gerenciador de Medicamentos",
+    "descripiton1":"Aplicativo para controle e suporte ao uso de múltiplos medicamentos, com funcionalidades de gestão de estoque, controle de compras e calendário de uso. Inclui cards interativos para facilitar as ações diárias do usuário, além de notificações em tempo real para alertar quando um medicamento está prestes a acabar ou já terminou.",
+    "title2":"DT Money - Controle Financeiro",
+    "descripiton2":"Aplicação de controle financeiro desenvolvida com React, TypeScript e Styled Components. Permite gerenciar transações, visualizar saldos e acompanhar despesas e receitas.",
+    "descripiton3":"Projeto FullStack desenvolvido para o processo seletivo da SEFAZ Maceió. Utiliza Django para o backend e Vue.js para o frontend, com funcionalidades como autenticação e gerenciamento de funcionários.",
+    "title4":"RocketNotes - Gerenciador de Anotações",
+    "descripiton4":"Aplicação para criar e gerenciar anotações, desenvolvida com React, Vite e Styled Components. Inclui autenticação, navegação condicional e gerenciamento de notas."
   }
 }

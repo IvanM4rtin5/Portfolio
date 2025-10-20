@@ -5,12 +5,14 @@ import dtMoneyImage from '../../assets/DT MONEY - Google Chrome 02_03_2025 15_41
 import sefazImage from '../../assets/telaMaceio_IN.jpeg';
 import projectImage2 from '../../assets/Farmacinha e mais 7 páginas - Perfil 1 — Microsoft​ Edge 11_09_2025 12_03_56.png';
 import rocketNotesImage from '../../assets/note.png';
+import { useTranslation } from "react-i18next";
 
 export function ProjectSection ()  {
+  const { t, i18n } = useTranslation();
   const projects = [
          {
-        title: ' Farmacinha-App - Gerenciador de Medicamentos',
-        description: 'Aplicativo para controle e suporte ao uso de múltiplos medicamentos, com funcionalidades de gestão de estoque, controle de compras e calendário de uso. Inclui cards interativos para facilitar as ações diárias do usuário, além de notificações em tempo real para alertar quando um medicamento está prestes a acabar ou já terminou.',
+        title:t("works.title1"),
+        description:t("works.descripiton1") ,
         technologies: [
           'vuejs/vuejs-original.svg', 
           'quasar/quasar-original.svg', 
@@ -22,8 +24,8 @@ export function ProjectSection ()  {
         link:'https://minhafarmacinha-app.web.app/'
       },
     {
-      title: 'DT Money - Controle Financeiro',
-      description: 'Aplicação de controle financeiro desenvolvida com React, TypeScript e Styled Components. Permite gerenciar transações, visualizar saldos e acompanhar despesas e receitas.',
+      title: t("works.title2"),
+      description:t("works.descripiton2"),
       technologies: [
         'React/react-original.svg', 
         'styledcomponents/styledcomponents-original.svg', 
@@ -36,7 +38,7 @@ export function ProjectSection ()  {
     },
     {
       title: 'SEFAZ Maceió - FullStack',
-      description: 'Projeto FullStack desenvolvido para o processo seletivo da SEFAZ Maceió. Utiliza Django para o backend e Vue.js para o frontend, com funcionalidades como autenticação e gerenciamento de funcionários.',
+      description:t("works.descripiton3"),
       technologies: [
         'vuejs/vuejs-original.svg', 
         'Bootstrap/bootstrap-original.svg', 
@@ -47,8 +49,8 @@ export function ProjectSection ()  {
       link: 'https://github.com/IvanM4rtin5/Maceio_IN'
     },
    {
-      title: 'RocketNotes - Gerenciador de Anotações',
-      description: 'Aplicação para criar e gerenciar anotações, desenvolvida com React, Vite e Styled Components. Inclui autenticação, navegação condicional e gerenciamento de notas.',
+      title: t("works.title4"),
+      description:t("works.descripiton4"),
       technologies: [
         'React/React-original.svg', 
         'Vite/Vite-original.svg', 

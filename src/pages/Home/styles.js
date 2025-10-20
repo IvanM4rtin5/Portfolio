@@ -142,6 +142,7 @@ export const LanguageSwitcher = styled.div`
   button {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
     color: ${({ theme }) => theme.COLORS.WHITE};
+    justify-content: center;
     border: none;
     padding: 6px 12px;
     border-radius: 4px;

@@ -61,9 +61,11 @@ export function Header() {
             </Navigation>
 
             {/* Botão do Menu Mobile */}
+            
             <MenuButton onClick={toggleMenu}>
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </MenuButton>
+            
 
             {/* Menu Mobile */}
             <MobileMenu $isOpen={isMenuOpen}>
@@ -86,17 +88,17 @@ export function Header() {
                 <NavLink to="/Contato" onClick={toggleMenu}>
                     <Mail size={20} />
                     <span>{t('home.contact')}</span>
-
-                    {/* Button Lunguagens */}
-                    <div style={{ display: "flex", gap: "8px", marginLeft: "auto" }}>
-                        <LanguageButton onClick={() => changeLanguage("pt")}>
-                            <img src="/images/brazil.png" alt="Português" width="20" />
-                        </LanguageButton>
-                        <LanguageButton onClick={() => changeLanguage("en")}>
-                            <img src="/images/united-states.png" alt="English" width="20" />
-                        </LanguageButton>
-                    </div>
                 </NavLink>
+
+                {/* Button Lunguagens */}
+                <div style={{ display: "flex", gap: "8px", marginTop:"8px" }}>
+                    <LanguageButton onClick={() => changeLanguage("pt")}>
+                        <img src="/images/brazil.png" alt="Português" width="20" />
+                    </LanguageButton>
+                    <LanguageButton onClick={() => changeLanguage("en")}>
+                        <img src="/images/united-states.png" alt="English" width="20" />
+                    </LanguageButton>
+                </div>
             </MobileMenu>
 
         </Container>

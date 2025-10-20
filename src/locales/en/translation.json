@@ -39,5 +39,14 @@
   "header":{
     "title": "Welcome",
     "home":"Home"
+  },
+  "works":{
+    "title1":"Farmacinha-App - Medication Manager",
+    "descripiton1":"An application for monitoring and supporting the use of multiple medications, with inventory management, purchase control, and a usage calendar. It includes interactive cards to facilitate the user's daily activities, as well as real-time notifications to alert users when a medication is about to run out or has already run out.",
+    "title2":"DT Money - Financial Control",
+    "descripiton2":"Financial control application developed with React, TypeScript, and Styled Components. Allows you to manage transactions, view balances, and track expenses and income.",
+    "descripiton3":"FullStack project developed for the SEFAZ Maceió selection process. It uses Django for the backend and Vue.js for the frontend, with features such as authentication and employee management.",
+    "title4":"RocketNotes - Note Manager",
+    "descripiton4":"An application for creating and managing notes, developed with React, Vite, and Styled Components. Includes authentication, conditional navigation, and note management."
   }
 }
