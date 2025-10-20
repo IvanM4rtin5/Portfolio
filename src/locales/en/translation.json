@@ -1,0 +1,43 @@
+{
+  "home": {
+    "description": "System developer dedicated to creating efficient and innovative solutions",
+    "about": "About",
+    "contact": "Contact",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "👋 Hello, my name is Ivan Martins",
+    "description": "I am a systems developer dedicated to creating efficient and innovative solutions, specializing in JavaScript and Node.js. Throughout my journey, I have completed various complementary courses that helped me improve my skills in technologies such as React, Express, and many others. I always aim to deliver impactful and high-quality results in every project. Currently, I am focused on improving my English to expand my reach to international projects and embrace new opportunities in a global market. I am committed to continuous personal and professional development, believing that lifelong learning is essential to stay prepared and relevant in the ever-evolving tech industry. Beyond technical skills, I am known for my interpersonal abilities. I am patient and proactive, always willing to listen and collaborate, which helps me work well in dynamic, multidisciplinary teams. I believe these traits are essential for building a positive work environment where everyone feels motivated and engaged. I am always looking for new challenges and opportunities that allow me to learn and grow. If you're looking for a dedicated professional with a strong results-driven mindset, let's connect and explore how we can collaborate to create solutions that make a difference!"
+  },
+  "projects":{
+    "title": "Projects",
+    "subtitle":"To See More, Click on the Projects."
+  },
+  "skills":{
+    "title":"My Skills"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Your message",
+    "sendButton": "To send Message",
+    "downloadCV": "Download CV",
+    "successMessage": "Message sent successfully! Thank you for contacting us.",
+    "errorMessage": "Error sending message, please try again.",
+    "whatsapp": "Talk to me",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "phone": "(82) 99829-6640",
+    "emailText": "Email"
+  },
+  "header":{
+    "title": "Welcome",
+    "home":"Home"
+  }
+}

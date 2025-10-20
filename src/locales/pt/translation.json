@@ -1,0 +1,43 @@
+{
+  "home": {
+    "description": "Desenvolvedor de sistemas dedicado a criar soluções eficientes e inovadoras",
+    "about": "Sobre",
+    "contact": "Contatos",
+    "projects": "Projetos",
+    "skills": "Habilidades"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "👋 Olá, Me chamo Ivan Martins",
+    "description": "Sou um desenvolvedor de sistemas dedicado a criar soluções eficientes e inovadoras, com especialidade em JavaScript e Node.js. Ao longo da minha trajetória, finalizei diversos cursos complementares, que me permitiram aprimorar habilidades em tecnologias como React, Express, e muitas outras, sempre com o objetivo de trazer resultados impactantes e de alta qualidade em cada projeto. Atualmente, estou focado em aprimorar meu inglês para expandir minha atuação para projetos internacionais e abraçar novas oportunidades em um mercado global. Tenho um compromisso constante com meu desenvolvimento pessoal e profissional, acreditando que o aprendizado contínuo é essencial para me manter preparado e relevante frente aos desafios do setor de tecnologia. Além das habilidades técnicas, sou reconhecido pela minha capacidade de relacionamento interpessoal. Sou uma pessoa paciente e proativa, sempre disposta a ouvir e colaborar, o que facilita meu trabalho em equipes multidisciplinares e dinâmicas. Acredito que esses atributos são fundamentais para criar um ambiente de trabalho positivo, onde todos se sintam motivados e engajados. Estou sempre em busca de novos desafios e oportunidades que me permitam aprender e crescer. Se você procura um profissional dedicado e com forte orientação para resultados, vamos nos conectar e explorar possibilidades de colaboração para criarmos soluções que façam a diferença!"
+  },
+  "projects":{
+    "title": "Porjetos",
+    "subtitle":"Para Ver Mais , Click Nos Projetos."
+  },
+  "skills":{
+    "title":"Minhas Habilidades"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Mensagem",
+    "namePlaceholder": "Seu nome",
+    "emailPlaceholder": "seu@email.com",
+    "messagePlaceholder": "Sua mensagem",
+    "sendButton": "Enviar Mensagem",
+    "downloadCV": "Baixar Currículo",
+    "successMessage": "Mensagem enviada com sucesso! Obrigado pelo contato.",
+    "errorMessage": "Erro ao enviar a mensagem, tente novamente.",
+    "whatsapp": "Fale Comigo",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "phone": "(82) 99829-6640",
+    "emailText": "Email"
+  },
+  "header":{
+    "title": "Bem-Vindo",
+    "home":"Home"
+  }
+}
