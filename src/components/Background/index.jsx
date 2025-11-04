@@ -35,9 +35,9 @@ const BackgroundParticles = () => {
             },
           },
           particles: {
-            color: { value: "#FF9000" },
+            color: { value: "#415a77" },
             links: {
-              color: "#ffffff",
+              color: "#999591",
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -46,7 +46,7 @@ const BackgroundParticles = () => {
             move: {
               enable: true,
               speed: 1,
-              outModes: "out",
+              direction: "bottom",
             },
             number: {
               density: { enable: true, area: 800 },

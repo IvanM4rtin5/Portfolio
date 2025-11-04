@@ -204,7 +204,7 @@ export const LanguageButton = styled.button`
   transition: background-color 0.2s;
 
   &:hover {
-    background-color: ${({ theme }) => theme.COLORS.ORANGE};
+    background-color: ${({ theme }) => theme.COLORS.BLUE};
     color: #000;
   }
 `;

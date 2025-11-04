@@ -103,7 +103,7 @@ export const ContactForm = styled.div`
             border-radius: 8px;
             padding: 18px;
             font-size: 16px;
-            color: ${({ theme }) => theme.COLORS.GRAY_300};
+            color: ${({ theme }) => theme.COLORS.GRAY_400};
             font-weight: bold;
             cursor: pointer;
             transition: filter 0.2s;
