@@ -7,7 +7,7 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
     body {
-        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+        background: linear-gradient(to bottom, ${({ theme }) => theme.COLORS.BACKGROUND_900}, ${({ theme }) => theme.COLORS.BACKGROUND_800});
         color: ${({ theme }) => theme.COLORS.WHITE};
     }
     body, input, button, textarea{
