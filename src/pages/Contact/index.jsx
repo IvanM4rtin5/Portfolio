@@ -88,7 +88,7 @@ export function Contacts() {
 
                 <ContactForm>
                     <form
-                      action="https://formsubmit.co/ivanmarti.alves@gmail.com"
+                      action="https://formsubmit.co/ivanmat@martcode.com.br"
                       method="POST"
                       onSubmit={handleSubmit}
                     >

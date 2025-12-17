@@ -4,6 +4,7 @@ import GlobalStyles from "./styles/global";
 import { ThemeProvider } from "styled-components";
 import { BrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./router/app.routes";
+import { Footer } from "./components/Footer";
 import "./i18n";
 
 import theme from "./styles/theme"
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <BrowserRouter>
        < AppRoutes/>
       </BrowserRouter>
+       <Footer />
     </ThemeProvider>
   </React.StrictMode>
 )
