@@ -52,10 +52,10 @@ export function Header() {
                 </Link>
                 <div style={{ display: "flex", gap: "8px", marginLeft: "auto" }}>
                     <LanguageButton onClick={() => changeLanguage("pt")}>
-                        <img src="/images/brazil.png" alt="Português" width="20" />
+                        <img src="/images/brazil-p.png" alt="Português" width="20" />
                     </LanguageButton>
                     <LanguageButton onClick={() => changeLanguage("en")}>
-                        <img src="/images/united-states.png" alt="English" width="20" />
+                        <img src="/images/united-states-p.png" alt="English" width="20" />
                     </LanguageButton>
                 </div>
             </Navigation>
@@ -93,10 +93,10 @@ export function Header() {
                 {/* Button Lunguagens */}
                 <div style={{ display: "flex", gap: "8px", marginTop:"8px" }}>
                     <LanguageButton onClick={() => changeLanguage("pt")}>
-                        <img src="/images/brazil.png" alt="Português" width="20" />
+                        <img src="/images/brazil-p.png" alt="Português" width="20" />
                     </LanguageButton>
                     <LanguageButton onClick={() => changeLanguage("en")}>
-                        <img src="/images/united-states.png" alt="English" width="20" />
+                        <img src="/images/united-states-p.png" alt="English" width="20" />
                     </LanguageButton>
                 </div>
             </MobileMenu>
@@ -104,3 +104,4 @@ export function Header() {
         </Container>
     );
 }
+
