@@ -1,10 +1,10 @@
 import React from "react";
 import { FolderKanban } from "lucide-react";
 import { ProjectSectionContainer } from "./styles";
-import dtMoneyImage from '../../assets/DT MONEY - Google Chrome 02_03_2025 15_41_42.png';
-import sefazImage from '../../assets/telaMaceio_IN.jpeg';
-import projectImage2 from '../../assets/Farmacinha e mais 7 páginas - Perfil 1 — Microsoft​ Edge 11_09_2025 12_03_56.png';
-import rocketNotesImage from '../../assets/note.png';
+import dtMoneyImage from '../../assets/images-projects/DT MONEY.png';
+import sefazImage from '../../assets/images-projects/telaMaceio_IN.jpeg';
+import projectImage2 from '../../assets/images-projects/Farmacinha.png';
+import rocketNotesImage from '../../assets/images-projects/note.png';
 import { useTranslation } from "react-i18next";
 
 export function ProjectSection ()  {
