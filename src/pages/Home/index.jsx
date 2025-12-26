@@ -30,10 +30,10 @@ export function Home() {
       <div style={{ position: "relative", width: "100%" }}>
         <LanguageSwitcher>
           <button onClick={() => changeLanguage("pt")}>
-            <img src="/images/brazil.png" alt="Português" width="24" />
+            <img src="/images/brazil-p.png" alt="Português" width="24" />
           </button>
           <button onClick={() => changeLanguage("en")}>
-            <img src="/images/united-states.png" alt="english" width="24" />
+            <img src="/images/united-states-p.png" alt="english" width="24" />
           </button>
         </LanguageSwitcher>
 
@@ -64,3 +64,4 @@ export function Home() {
     </Container>
   );
 }
+
