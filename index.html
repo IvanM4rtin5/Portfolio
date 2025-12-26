@@ -6,8 +6,19 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'">
+
+    <noscript>
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..700&display=swap">
+    </noscript>
+    <link rel="stylesheet" href="/src/assets/css/devicon.min.css" />
+
+    <!-- Favicons -->
     <link rel="icon" type="image/png" href="/src/assets/favicons/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/src/assets/favicons/favicon.svg" />
     <link rel="shortcut icon" href="/src/assets/favicons/favicon.ico" />
